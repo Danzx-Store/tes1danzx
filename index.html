@@ -54,7 +54,7 @@
  • 7GB : 6K 
  • 8GB : 7K 
 
-PANEL UNLIMITED : 8K PERMANEN </div> <div style="margin-top:10px" class="actions"> <button class="btn btn-wa" onclick="openWA('PANEL PRIVATE - 10K','10K')">Beli via WhatsApp</button> <button class="btn btn-tg" onclick="openTG('PANEL PRIVATE - 10K','10K')">Beli via Telegram</button> </div> </div> </section>
+PANEL UNLIMITED : 8K PERMANEN </div> <div style="margin-top:10px" class="actions"> <button class="btn btn-wa" onclick="openWA('PANEL PRIVATE','10K')">Beli via WhatsApp</button> <button class="btn btn-tg" onclick="openTG('PANEL PRIVATE - 10K','10K')">Beli via Telegram</button> </div> </div> </section>
 
   <div class="card">
     <div class="top-row">
@@ -149,7 +149,7 @@ PANEL UNLIMITED : 8K PERMANEN </div> <div style="margin-top:10px" class="actions
 
   </div>  <script>
     // === GANTI NOMOR INI DENGAN NOMOR TUJUAN (format internasional, tanpa +) ===
-    const WA_NUMBER = '6283131056628'; // <-- ganti
+    const WA_NUMBER = '6285129511955'; // <-- ganti
     const TELEGRAM_CONTACT = 'https://t.me/Danzx_JBR'; // sudah tersedia
 
     function encodeMessage(product,price){
@@ -165,7 +165,7 @@ PANEL UNLIMITED : 8K PERMANEN </div> <div style="margin-top:10px" class="actions
 
     function openTG(product,price){
       // gunakan share link agar user bisa kirim pesan ke channel/contact
-      const text = encodeURIComponent(`Halo, saya mau pesan: ${product} - ${price}. Mohon info lebih lanjut.`);
+      const text = encodeURIComponent(`Min, saya mau pesan: ${product} - ${price}. Mohon info lebih lanjut.`);
       // buka chat ke contact atau ke profile yang sudah ditentukan
       const url = `https://t.me/share/url?url=&text=${text}`;
       window.open(url,'_blank');
